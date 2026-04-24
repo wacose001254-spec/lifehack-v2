@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* This tells Tailwind that 'font-playfair' exists */
+  --font-playfair: var(--font-playfair);
+  --font-sans: var(--font-inter);
+  
+  --color-brand-blue: #1d4ed8;
+  --color-brand-dark: #0f172a;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+body {
+  @apply font-sans antialiased text-slate-900 bg-white;
+}
+
+/* Applying the font to headings safely */
+h1, h2, h3, h4 {
+  font-family: var(--font-playfair);
+}
