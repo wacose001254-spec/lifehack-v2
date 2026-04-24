@@ -27,6 +27,7 @@ export default function Navbar() {
           <Link href="/about" className="hover:text-brand-blue transition-colors">About Us</Link>
           <Link href="/insights" className="hover:text-brand-blue transition-colors">Insights</Link>
           <a href="/#curriculum" className="hover:text-brand-blue transition-colors">Curriculum</a>
+          <a href="/#tutors" className="hover:text-brand-blue transition-colors">Tutors</a>
           <Link href="/contact" className="hover:text-brand-blue transition-colors">Admissions</Link>
         </div>
 
@@ -41,12 +42,14 @@ export default function Navbar() {
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white border-b border-slate-100 p-6 flex flex-col gap-6 font-bold text-slate-900 shadow-xl">
           <Link href="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
           <Link href="/about" onClick={() => setMobileMenuOpen(false)}>About Us</Link>
           <Link href="/insights" onClick={() => setMobileMenuOpen(false)}>Insights</Link>
           <a href="/#curriculum" onClick={() => setMobileMenuOpen(false)}>Curriculum</a>
+          <a href="/#tutors" onClick={() => setMobileMenuOpen(false)}>Tutors</a>
           <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>Admissions</Link>
         </div>
       )}
