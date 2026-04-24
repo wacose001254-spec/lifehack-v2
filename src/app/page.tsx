@@ -3,6 +3,7 @@ import Navbar from "@/components/layout/Navbar";
 import Curriculum from "@/components/sections/Curriculum";
 import Testimonials from "@/components/sections/Testimonials";
 import Tutors from "@/components/sections/Tutors";
+import BlogPreview from "@/components/sections/BlogPreview";
 
 export default function Home() {
   return (
@@ -54,6 +55,9 @@ export default function Home() {
       <div className="bg-slate-50" id="tutors">
         <Tutors />
       </div>
+
+      {/* Section 4: Insights/Blog Preview (White Background) */}
+      <BlogPreview />
 
       {/* Call to Action Footer Section */}
       <section className="py-24 px-6 bg-brand-dark text-white text-center">
