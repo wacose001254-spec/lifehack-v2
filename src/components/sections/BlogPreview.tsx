@@ -5,16 +5,16 @@ import { ArrowRight, BookOpen } from 'lucide-react';
 export default function BlogPreview() {
   const blogs = [
     {
-      slug: "cambridge-digital-exams-2026",
-      category: "Curriculum",
-      title: "Preparing for the 2026 Cambridge Digital Transition",
-      desc: "Navigating the shift to on-screen testing for IGCSE and A-Level students."
+      slug: "ib-vs-a-levels-subject-differences",
+      category: "Academic Path",
+      title: "IB vs A-Levels: Which is Right for You?",
+      desc: "A detailed comparison of subject depth and global university recognition for 2026."
     },
     {
-      slug: "cbc-to-international-bridge",
-      category: "Transition",
-      title: "The Bridge: CBC to International Systems",
-      desc: "A strategic guide for parents entering the 2026 Senior School pathways."
+      slug: "social-benefits-of-homeschooling",
+      category: "Socialization",
+      title: "The Social Benefits of Homeschooling",
+      desc: "Debunking the myth of isolation and exploring how homeschooled kids thrive socially."
     }
   ];
 
@@ -24,9 +24,9 @@ export default function BlogPreview() {
         <div className="flex justify-between items-end mb-12">
           <div className="max-w-xl">
             <h2 className="text-4xl font-playfair font-bold text-slate-900 mb-4">Academy Insights</h2>
-            <p className="text-slate-600 leading-relaxed">Expert perspectives on 2026 global education shifts and local CBC transitions.</p>
+            <p className="text-slate-600">Merging global standards with practical homeschooling advice for Nairobi families.</p>
           </div>
-          <Link href="/insights" className="hidden md:flex items-center gap-2 text-brand-blue font-bold group">
+          <Link href="/insights" className="flex items-center gap-2 text-brand-blue font-bold group">
             All Articles <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
