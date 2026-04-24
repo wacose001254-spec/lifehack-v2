@@ -15,7 +15,7 @@ export default function AboutPage() {
             <div className="inline-block px-4 py-1 mb-6 text-xs font-bold tracking-widest text-brand-blue uppercase bg-blue-50 rounded-full border border-blue-100">
               The Lifehack Story
             </div>
-            <h1 className="text-5xl md:text-7xl font-playfair font-bold text-slate-900 mb-8 leading-tight">
+            <h1 className="text-5xl md:text-7xl font-playfair font-bold text-slate-900 mb-8 leading-tight text-center">
               Individualized Training for Global Success.
             </h1>
             <p className="text-xl text-slate-600 leading-relaxed font-light">
